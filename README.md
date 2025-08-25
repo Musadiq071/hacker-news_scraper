@@ -23,14 +23,14 @@ git clone https://github.com/YOUR-USERNAME/hacker-news_scraper.git
 cd hacker-news_scraper
 ```
 2. install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 3. Usage
 Run the scraper
-
+```bash
 python3 automation.py
-
+```
 You will be prompted to enter:
 Number of top stories to scrape (default 10)
 Whether to open links in your browser
@@ -47,9 +47,9 @@ Notes
 Requires Safari with "Allow Remote Automation" enabled:
 Safari > Develop > Allow Remote Automation
 Run once in terminal:
-
+```bash
 safaridriver --enable
-
+```
 
 Example Output
 Check the hackernews_top10(example_file).csv in the repo for a sample of scraped stories.
